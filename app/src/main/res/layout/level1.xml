@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textSize="25dp"
+        android:id="@+id/shownumber"/>
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/lvl1iv1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+    </com.skyfishjy.library.RippleBackground>
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb2">
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvl1rb3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lvl1iv5"
+        android:layout_toEndOf="@+id/lvl1iv5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/lvl1iv3"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="239dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb4"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lvl1rb5"
+        android:layout_toEndOf="@+id/lvl1rb5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/lvl1iv4"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginRight="112dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="335dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb5"
+        android:layout_toEndOf="@+id/lvl1rb1"
+        android:layout_toRightOf="@+id/lvl1rb1"
+        android:layout_alignTop="@+id/lvl1iv7">
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb6">
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1rb7">
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvl1iv7"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/shownumber"
+        android:layout_toLeftOf="@+id/shownumber"
+        android:layout_toStartOf="@+id/shownumber"
+        android:layout_marginTop="150dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lvl1iv6"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lvl1iv5"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toRightOf="@+id/lvl1iv6"
+        android:layout_toEndOf="@+id/lvl1iv6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lvl1iv2"
+        android:src="@mipmap/ic_launcher"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lvl1rb5"
+        android:layout_toEndOf="@+id/lvl1rb5"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp" />
+
+
+</RelativeLayout>
